@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LLM Chat</title>
+</head>
+<body>
+    <header>
+        Argon CHARLIE GPT LLMs model 
+        <!-- <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="language-selector">
+            <select id="language">
+                <option value="en">English</option>
+                <option value="sk">Slovencina</option>
+            </select>
+        </div> -->
+    </header>
+
+    <main>
+        <div class="chat-container">
+            <div class="chat-box" id="chatBox">
+                <!-- Chat content will be displayed here -->
+            </div>
+            <div class="input-container">
+                <input class="input-container-text" type="text" id="userInput" placeholder="Type your message...">
+                <button onclick="sendMessage()" id="sendButton">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="text-white dark:text-black"><path d="M7 11L12 6L17 11M12 18V7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
