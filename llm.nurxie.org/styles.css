@@ -8,12 +8,25 @@ body {
 
 header {
     background-color: #333;
-    padding: 2px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
     padding-left: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 5%;
+}
+
+.head-parent {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
+  }
+
+.head-child {
+    width: auto;
 }
 
 .logo img {
@@ -46,13 +59,9 @@ p{
 
 .dots{
     background: #5e5c73;
+    width: 100vw    ;
 }
 
-.dots:last-of-type{
-    background: #5e5c73;
-    display: inline-block;
-    width: 100%;
-}
 
 .chat-box {
     margin-top: auto;
@@ -63,12 +72,10 @@ p{
     overflow-y: auto;
     margin-bottom: 10px;
     border-radius: 0px;
-    width: 100vv;
+    width: 100%;
 }
 
-.chat-box p:nth-child(2n){
-    background: #5e5c73;
-}
+
 
 .input-container {
     display: flex;
@@ -85,6 +92,14 @@ p{
     border: none;
     padding: 16px;
     outline-width: 0;
+}
+
+.dots_wrapper{
+    width: 100%;
+}
+
+.dots_wrapper_bg{
+    background: #5e5c73;
 }
 
 input {
