@@ -11,9 +11,9 @@ async function sendMessage() {
     var chatBox = document.getElementById('chatBox');
     // Append user message to the chat box
     for(let i = 0; i < 10; i++){
-        await sleep(20); //delay is in milliseconds 
+        await sleep(40); //delay is in milliseconds 
         if(color == 1){
-            chatBox.innerHTML += '<t class="dots">.</t>';
+            chatBox.innerHTML += '<span class="dots">.</span>';
         }else{
             chatBox.innerHTML += '.';
         }

@@ -50,7 +50,7 @@ p{
 
 .dots:last-of-type{
     background: #5e5c73;
-    display: block;
+    display: inline-block;
     width: 100%;
 }
 
@@ -63,6 +63,7 @@ p{
     overflow-y: auto;
     margin-bottom: 10px;
     border-radius: 0px;
+    width: 100vv;
 }
 
 .chat-box p:nth-child(2n){
